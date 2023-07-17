@@ -99,23 +99,23 @@ end
         end
         local CoreGui = game:GetService("StarterGui")
         CoreGui:SetCore("SendNotification", {
-            Title = "Auto Collect Chest",
-            Text = "Made By ItzHwng #3318",
+            Title = "Auto Chest",
+            Text = "Sayu Bị Mê Cu 🥴#1101",
             Duration = math.huge,
             Callback = AllowRunServiceBind,
-            Button1 = "On",
-            Button2 = "Off",
+            Button1 = "Bật",
+            Button2 = "Tắt",
         })
     end
 
     local CoreGui = game:GetService("StarterGui")
     CoreGui:SetCore("SendNotification", {
-        Title = "Auto Collect Chest",
-        Text = "Made By ItzHwng #3318",
+        Title = "Auto Chest",
+        Text = "Sayu Bị Mê Cu 🥴#1101",
         Duration = math.huge,
         Callback = AllowRunServiceBind,
-        Button1 = "On",
-        Button2 = "Off",
+        Button1 = "Bật",
+        Button2 = "Tắt",
     })
     
     task.spawn(function()
